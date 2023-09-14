@@ -19,5 +19,5 @@ app.use('*',function(req,res){
 
 const PORT =process.env.PORT;
 
-app.listen(PORT,()=>{console.log(`Server is up oand Runnging on ${process.env.PORT}`);
+app.listen(PORT);
 })
